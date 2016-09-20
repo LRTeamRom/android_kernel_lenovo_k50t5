@@ -7,7 +7,11 @@
 
 * Command:
 
-    PATH=${PATH}:/android_kernel_lenovo_k50t5/aarch64-linux-android-4.9/bin/
+    sudo chmod -R 777 * ~/android_kernel_lenovo_k50t5/aarch64-linux-android-4.9/bin/
+    
+    cd ~/android_kernel_lenovo_k50t5/kernel-3.10
+
+    PATH=${PATH}:~/android_kernel_lenovo_k50t5/aarch64-linux-android-4.9/bin/
 
     export ARCH=arm64
 
